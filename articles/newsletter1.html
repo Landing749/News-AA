@@ -12,6 +12,26 @@
       background: #f4f4f9;
       color: #333;
     }
+
+    /* Top navigation header */
+    nav {
+      background: #222;
+      padding: 15px 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Banner section */
     header {
       position: relative;
       text-align: center;
@@ -31,6 +51,8 @@
       font-weight: bold;
       text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
     }
+
+    /* Article content */
     main {
       max-width: 900px;
       margin: 20px auto;
@@ -54,6 +76,8 @@
     ol {
       margin: 10px 0 20px 20px;
     }
+
+    /* Footer */
     footer {
       text-align: center;
       padding: 15px;
@@ -65,12 +89,20 @@
 </head>
 <body>
 
+  <!-- Navigation bar -->
+  <nav>
+    <a href="index.html">&larr; Back to Home</a>
+    <span style="color: white;">Academic Acez Newsletter</span>
+  </nav>
+
+  <!-- Banner -->
   <header>
     <img src="https://landing749.github.io/News-AA/images/4edac970-d687-4f1e-97d1-2f81a3c806fc.jpg" alt="Social Media Effect on the Youth">
   </header>
 
+  <!-- Main content -->
   <main>
-    <p class="author">By: Newsletter Team</p>
+    <p class="author">By: Kris Vio Barcamonte</p>
 
     <h3>Why Do We Need Stricter Regulations in Social Media?</h3>
     <p>
@@ -99,6 +131,7 @@
     </ol>
   </main>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 Academic Acez. All Rights Reserved.</p>
   </footer>
