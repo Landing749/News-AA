@@ -80,10 +80,11 @@ footer {
 }
 
 .article-image {
-  max-width: 100%;
+  width: 100%;
+  max-width: 900px;
   height: auto;
   display: block;
-  margin: 15px auto;
+  margin: 10px auto;
   border-radius: 8px;
 }
 
