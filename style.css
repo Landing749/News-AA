@@ -79,6 +79,14 @@ footer {
   line-height: 1.6;
 }
 
+.article-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+  border-radius: 8px;
+}
+
 .article-full h1 {
   font-size: 2rem;
   color: #003366;
