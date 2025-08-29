@@ -1,56 +1,98 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset */
+* {
   margin: 0;
-  background: #fff;
-  color: #222;
-  line-height: 1.6;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
 header {
-  background: #c62828;
-  color: #fff;
-  padding: 1rem;
+  background: #003366;
+  color: white;
+  padding: 15px 20px;
   text-align: center;
 }
 
-main {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
 }
 
-.article-preview h2 {
-  margin-bottom: 0.2rem;
-}
-
-.article-preview a {
+header nav a {
+  color: #ffcc00;
+  margin: 0 10px;
   text-decoration: none;
-  color: #c62828;
+  font-weight: bold;
 }
 
-.article-preview a:hover {
+header nav a:hover {
   text-decoration: underline;
 }
 
-.author {
-  font-size: 0.9rem;
-  color: #555;
-}
-
-.summary {
-  margin: 0.5rem 0 1rem 0;
-}
-
-hr {
-  border: none;
-  border-top: 1px solid #ccc;
-  margin: 1.5rem 0;
-}
-
+/* Footer */
 footer {
-  background: #222;
-  color: #fff;
+  background: #003366;
+  color: white;
   text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+  padding: 10px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+/* Article List on Homepage */
+.article-preview {
+  border-bottom: 1px solid #ddd;
+  padding: 20px;
+}
+
+.article-preview h2 {
+  font-size: 1.4rem;
+  color: #003366;
+  margin-bottom: 8px;
+}
+
+.article-preview h2 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.article-preview h2 a:hover {
+  color: #ff6600;
+}
+
+.article-preview p {
+  color: #444;
+  margin: 5px 0;
+}
+
+.article-preview .author {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Full Article Page */
+.article-full {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+}
+
+.article-full h1 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 10px;
+}
+
+.article-full .author {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.article-full p {
+  margin-bottom: 16px;
+  color: #222;
+  font-size: 1rem;
 }
